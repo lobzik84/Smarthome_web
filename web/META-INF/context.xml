@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiResourceLocking="true" path="/sh">
+  <Resource auth="Container" defaultTransactionIsolation="READ_COMMITTED" driverClassName="com.mysql.jdbc.Driver" factory="org.apache.commons.dbcp.BasicDataSourceFactory" maxActive="25" maxIdle="8" name="jdbc/sh" password="shpass" type="javax.sql.DataSource" url="jdbc:mysql://192.168.4.4:3306/sh?useUnicode=true&amp;characterEncoding=utf8" username="shuser" validationQuery="Select 1"/>
+</Context>
